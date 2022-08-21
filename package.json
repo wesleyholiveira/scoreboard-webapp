@@ -1,0 +1,14 @@
+{
+  "name": "placar-cebolao",
+  "version": "1.0.0",
+  "description": "Webserver para manipular os dados do placar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wesley Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

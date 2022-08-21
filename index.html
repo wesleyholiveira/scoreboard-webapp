@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cebolão Lunar - Scoreboard</title>
+        <style>
+            * {
+                box-sizing: content-box;
+                margin: 0;
+                padding: 0;
+            }
+            .scoreboard {
+                font-family: 'CocoBikeR', sans-serif;
+                width: 1276px;
+                height: 50px;
+                display: flex;
+                margin: 0 auto;
+                align-items: center;
+                background: url('assets/img/score-cebolao-final.png') 100% 100% transparent;
+                background-size: cover;
+            }
+            .scoreboard .rounds {
+                color: white;
+                font-size: 12px;
+                font-weight: bold;
+                text-shadow: #000 1px 1px 1px;
+                margin-top: 15px;
+                text-align: center;
+            }
+            .scoreboard .scoreboard-container.left {
+                margin-left: 60px;
+            }
+            .scoreboard .scoreboard-container.left > .container-score {
+                color: #00c5c3;
+                left: 13px;
+            }
+            .scoreboard .scoreboard-container.right {
+                margin-right: 60px;
+            }
+            .scoreboard .scoreboard-container.right > .container-score {
+                color: #fec504;
+                right: 13px;
+            }
+            .scoreboard .scoreboard-container {
+                width: 100%;
+                display: flex;
+            }
+            .scoreboard .scoreboard-container > .container-name {
+                width: 380px;
+            }
+            .scoreboard .scoreboard-container.left > .container-name {
+                text-align: right;
+            }
+            .scoreboard .scoreboard-container.right > .container-name {
+                text-align: left;
+            }
+            .scoreboard .scoreboard-container .name {
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+                text-shadow: 1px 1px 1px black;
+            }
+            .scoreboard .scoreboard-container > .container-score {
+                text-align: center;
+                width: 160px;
+                margin-left: 3px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 37px;
+                font-weight: bold;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="scoreboard">
+            <div class="scoreboard-container left">
+                <div class="container-name">
+                    <span class="name">MOLESKER</span>
+                </div>
+                <div class="container-score">
+                    <span class="score">0</span>
+                </div>
+            </div>
+            <div class="rounds">
+                <span>PRIMEIRA RODADA</span>
+            </div>
+            <div class="scoreboard-container right">
+                <div class="container-score">
+                    <span class="score">0</span>
+                </div>
+                <div class="container-name">
+                    <span class="name">MOLESKER</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
